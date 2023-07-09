@@ -5,7 +5,7 @@
     <title>instagram</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-
+    <script src="script.js"></script>
   </head>
   <body>
 
@@ -22,12 +22,12 @@
 
     <div id="profile">
       <div id="profile_pic">
-        <img class="circle_pic" src="image/profile.jpeg">
+        <img class="circle_pic" src="image/thumbnails/1.jpg">
       </div>
 
       <div id="profile_info">
         <div id="id">
-          j.igg
+          <span>j.igg</span>
           <i class="fas fa-cog"></i>
         </div>
         <button>프로필 편집</button>
@@ -35,14 +35,16 @@
 
       <div>
         <p>
-          <strong>
+          <strong id="userInfo">
             박지교 (Jigyo Park)
           </strong></br>
-          개발자
+          <span id="summary">
+            개발자
+          </span>
         </p>
-        <p>
-          <a href="jiiiiiii.github.io">
-            jiiiiiii.github.io
+        <p id="profileDetail">
+          <a href="https://github.com/jiiiiiiig">
+            github.com/jiiiiiiig
           </a>
         </p>
       </div>
